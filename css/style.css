@@ -1,0 +1,107 @@
+/* ========================== 
+        Google fonts 
+============================ */
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;700;800&display=swap');
+
+/* ========================== 
+    variables
+============================ */
+:root{
+
+    /* ---fonts variable---- */
+    --mainFont :'Montserrat', sans-serif;
+    --fontBold:700;
+    --fontSemi:600;
+    --fontMedium:500;
+    --fontRegular:300;
+    --fontLight:200;
+    
+
+    /* ---color variable---- */
+    --bannerColor:#2D25A0;
+    --loginColor:#E02C6D;
+    --h4color:#18191F;
+    --pColor:#6C6C6C;
+
+
+
+    
+}
+
+
+/* ========================== 
+      Reset CSS
+============================ */
+
+
+
+*,
+*::before,
+*::after {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+     -webkit-box-flex: 0;
+     -ms-flex: 0 0 auto;
+         flex: 0 0 auto;
+}
+
+
+
+
+
+/* ========================== 
+     Global CSS
+============================ */
+
+
+a,
+a:hover{
+     text-decoration: none;
+}
+
+
+
+li{
+    list-style: none;
+}
+
+ul{
+    display: flex;
+}
+
+img{
+     max-width: 100%;
+}
+
+
+
+body{
+    height: 100vh;
+    font-family:var(--mainFont);
+    background-image: radial-gradient(circle at 47% 14%, rgba(205, 205, 205,0.04) 0%, rgba(205, 205, 205,0.04) 43%,transparent 43%, transparent 100%),radial-gradient(circle at 35% 12%, rgba(215, 215, 215,0.04) 0%, rgba(215, 215, 215,0.04) 4%,transparent 4%, transparent 100%),radial-gradient(circle at 1% 35%, rgba(24, 24, 24,0.04) 0%, rgba(24, 24, 24,0.04) 37%,transparent 37%, transparent 100%),radial-gradient(circle at 21% 1%, rgba(0, 0, 0,0.04) 0%, rgba(0, 0, 0,0.04) 26%,transparent 26%, transparent 100%),radial-gradient(circle at 23% 82%, rgba(249, 249, 249,0.04) 0%, rgba(249, 249, 249,0.04) 60%,transparent 60%, transparent 100%),radial-gradient(circle at 11% 54%, rgba(251, 251, 251,0.04) 0%, rgba(251, 251, 251,0.04) 23%,transparent 23%, transparent 100%),radial-gradient(circle at 69% 68%, rgba(234, 234, 234,0.04) 0%, rgba(234, 234, 234,0.04) 10%,transparent 10%, transparent 100%),linear-gradient(90deg, rgb(228, 46, 222),rgb(63, 61, 215));
+    
+}
+
+
+
+/* ========================== 
+     Reusable CSS
+============================ */
+
+
+.container{
+     max-width: 72.5rem;
+     margin: 0 auto;
+}
+
+
+
+h2{
+    font-size: 1.25rem;
+}
+
+
+
+
